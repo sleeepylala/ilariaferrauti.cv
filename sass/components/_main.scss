@@ -1,0 +1,76 @@
+.container-hero {
+    border: 1px solid rgb(43, 0, 255);
+    display: flex;
+    justify-content: center;
+    min-height: 900px;
+    .linea-img {
+        position: relative;
+        left: 150px;
+        
+    }
+    .profile-img {
+        position: relative;
+        left: 100px;
+    }
+}
+
+.container-box {
+    border: 1px solid rgb(130, 2, 40);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.container-column {
+    display: flex;
+    
+}
+
+.container-main {
+    flex-direction: column;
+    padding: 50px 50px;
+    margin-left: 200px;
+    border-radius: 3px;
+    border-top: 10px solid #383636;
+    border-right: 10px solid #383636;
+    border-bottom: 10px solid #383636;
+    box-shadow: 5px 6px 7px 0px rgba(0, 0, 0, 0.25);
+    max-width: 500px;
+
+    text-align: center;
+
+    h1 {
+        font-family: $primary-font;
+        font-size: 70px;
+        color: $tertiary-color;
+        span {
+            color: $secondary-color;
+        }
+    }
+
+    p {
+        font-family: $primary-font;
+        font-size: 32px;
+        color: $tertiary-color;
+        span {
+            // padding-left: 100px;
+            margin: 0 auto;
+        }
+    }
+}
+
+
+.container-button {
+    border: 2px solid blue;
+    margin-right: 150px;
+    .btn {
+        background-color: $secondary-color;
+        color: $tertiary-color;
+        border-radius: 30px;
+        padding: 10px 40px;
+        font-family: $primary-font;
+        font-size: 20px;
+
+    }
+}
