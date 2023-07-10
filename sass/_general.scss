@@ -7,14 +7,14 @@
 
 body {
     background-color: $background-primary; 
-    height: 2000px;
+    height: 5000px;
 
     display: flex;
     justify-content: center;
 }
 
 .container-landing {
-
-    max-width: 1420px;
-    border: 2px solid greenyellow;
+    max-height: 5000px;
+    max-width: 2000px;
+    border: 2px solid rgb(153, 255, 0);
 }

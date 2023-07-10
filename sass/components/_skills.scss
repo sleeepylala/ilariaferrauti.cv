@@ -1,0 +1,27 @@
+.container-skills {
+    border: 1px solid rgb(252, 0, 176);
+    min-height: 900px;
+    
+    h1 {
+        font-family: $primary-font;
+        color: $primary-color;
+        font-size: 48px;
+        padding-top: 70px;
+        text-align: center;
+    }
+}
+
+.container-myskill {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    align-items: center;
+    
+    p {
+        font-family: $primary-font;
+        color: $tertiary-color;
+        font-size: 12px;
+        font-weight: bold;
+    }
+}
