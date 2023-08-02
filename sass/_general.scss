@@ -6,8 +6,8 @@
 }
 
 body {
-    background-color: $background-primary; 
-    height: 5000px;
+    background-color: $background-primary;
+    // height: 5000px;
 
     display: flex;
     justify-content: center;
@@ -16,5 +16,13 @@ body {
 .container-landing {
     max-height: 5000px;
     max-width: 2000px;
+    width: 100vw;
     border: 2px solid rgb(153, 255, 0);
 }
+
+
+// @media (max-width: 575px) {
+//     .container {
+//         width: 94%;
+//     }
+// }
