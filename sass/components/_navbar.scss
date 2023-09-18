@@ -1,21 +1,18 @@
 
-
-
+.navbar-container{
+    background-color: #ff9f9f;
+}
 .navbar-collapse {
     display: flex;
-    border: 1px solid rgb(128, 0, 68);
     justify-content: center;
-    // vertical-align: middle;
 }
 
 
 .navbar-sezioni {
     font-family: $secondary-font;
-    border: 1px solid red;
-    // margin-left: 200px;
-    
+
     a {
-        color: $primary-color;
+        color: $secondary-color;
         font-size: 24px;
         margin: 20px;
     }
@@ -26,10 +23,9 @@
     flex-direction: row;
     align-items: center;
     justify-content: end;
-    border: 1px solid red;
     padding: 20px;
     .bi {
-        color: $primary-color;
+        color: $secondary-color;
         font-size: 25px;
     }
 }

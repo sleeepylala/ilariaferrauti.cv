@@ -1,23 +1,9 @@
 .container-hero {
-    border: 1px solid rgb(43, 0, 255);
     display: flex;
     justify-content: center;
-
-    min-height: 900px;
-
-    // .linea-img {
-    //     position: relative;
-    //     left: 150px;
-    //     max-width: 200px;
-
-    //     @media screen (max-width: 576px) {
-    //         display: none;
-    //     }
-    // }
+    min-height: 800px;
 
     .profile-img {
-        // position: relative;
-        // left: 100px;
         object-fit: contain;
         display: flex;
         justify-content: center;
@@ -30,7 +16,6 @@
 }
 
 .container-box {
-    border: 1px solid rgb(130, 2, 40);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,24 +24,19 @@
 
 .container-column {
     display: flex;
-    border: 1px solid rgb(8, 255, 181);
     justify-content: center;
     align-items: center;
-
     row-gap: 50px;
 }
 
 .container-main {
     flex-direction: column;
     padding: 50px 50px;
-    // margin-left: 200px;
     border-radius: 3px;
     border-top: 10px solid #383636;
     border-right: 10px solid #383636;
     border-bottom: 10px solid #383636;
     box-shadow: 5px 6px 7px 0px rgba(0, 0, 0, 0.25);
-    // max-width: 800px;
-
     text-align: center;
 
     h1 {
@@ -75,24 +55,13 @@
         color: $tertiary-color;
 
         span {
-            // padding-left: 100px;
             margin: 0 auto;
         }
     }
 }
 
-// @media (max-width: 575px) {
-
-//     .container-main {
-//         width: 100vw;
-//     }
-
-// }
-
-
 
 .container-button {
-    border: 2px solid blue;
     margin-right: 150px;
 
     .btn {
@@ -102,6 +71,5 @@
         padding: 10px 40px;
         font-family: $primary-font;
         font-size: 20px;
-
     }
 }
