@@ -1,6 +1,6 @@
 .container-works {
+    padding-top: 100px;
     min-height: 800px;
-    
     h1 {
         font-family: $primary-font;
         color: $primary-color;
@@ -18,7 +18,7 @@
     
 }
 .container-myworks {
-    height: 500px;
+    min-height: 500px;
     display: flex;
     flex-direction: row;
     align-items: center;

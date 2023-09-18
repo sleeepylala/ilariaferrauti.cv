@@ -2,11 +2,11 @@
     background-color: rgb(50, 50, 50);
     height: 100px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    
     p {
-        padding-top: 10px;
         font-size: 15px;
         font-weight: bold;
         color: white;

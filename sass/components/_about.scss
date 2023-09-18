@@ -1,5 +1,6 @@
 .container-about {
     min-height: 900px;
+    padding-top: 120px;
     span {
         color: $secondary-color;
         font-weight: bold;
@@ -44,9 +45,7 @@
 }
 
 @media (max-width: 575px) {
-
     .container-p {
         width: 100vw;
     }
-
 }
