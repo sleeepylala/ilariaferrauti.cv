@@ -1,0 +1,15 @@
+.footer {
+    background-color: rgb(50, 50, 50);
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    p {
+        font-size: 20px;
+        font-weight: bold;
+        color: rgb(35, 35, 35);
+        word-spacing: 20px;
+        letter-spacing: 8px;
+    }
+}
