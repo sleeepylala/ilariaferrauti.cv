@@ -1,5 +1,8 @@
 .container-about {
     // min-height: 900px;
+    span {
+        color: $secondary-color;
+    }
     h1 {
         font-family: $primary-font;
         color: $primary-color;

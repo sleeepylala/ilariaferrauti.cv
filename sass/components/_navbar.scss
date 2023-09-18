@@ -3,17 +3,16 @@
 
 .navbar-collapse {
     display: flex;
-    border: 1px solid green;
-    justify-content: space-between;
-    vertical-align: middle;
-    
+    border: 1px solid rgb(128, 0, 68);
+    justify-content: center;
+    // vertical-align: middle;
 }
 
 
 .navbar-sezioni {
     font-family: $secondary-font;
     border: 1px solid red;
-    margin-left: 200px;
+    // margin-left: 200px;
     
     a {
         color: $primary-color;
@@ -32,5 +31,11 @@
     .bi {
         color: $primary-color;
         font-size: 25px;
+    }
+}
+
+@media (max-width: 991px) {
+    .container-social {
+        display: none;
     }
 }

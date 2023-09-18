@@ -60,11 +60,11 @@
             }
         .container-progress {
             p {
-                display: none;
+                font-size: 20px;
             }
         }
         .container-myskill {
-            column-gap: 55px;
+            column-gap: 100px;
         }
         .container-icon {
             img {
@@ -74,6 +74,8 @@
         .container-linguaggi {
             p {
                 font-size: 20px;
+                text-align: left;
+                
             }
         }
     }
