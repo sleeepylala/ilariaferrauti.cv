@@ -59,6 +59,15 @@
     }
 }
 
+.navbar-brand {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    img {
+        width: 400px;
+        height: 150px;
+    }
+}
 @media (max-width: 991px) {
     .container-social {
         display: none;
