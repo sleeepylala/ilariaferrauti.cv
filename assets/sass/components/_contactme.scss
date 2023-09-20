@@ -51,3 +51,10 @@
 .form-floating>.form-control {
     background-color: transparent;
 }
+
+@media (max-width: 400px) {
+    .container-form {
+        width: 300px;
+        margin-left: 30px;
+    }
+}

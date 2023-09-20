@@ -61,6 +61,7 @@
         .container-progress {
             p {
                 font-size: 20px;
+                
             }
         }
         .container-myskill {
@@ -69,6 +70,33 @@
         .container-icon {
             img {
                 width: 45px;
+            }
+        }
+        .container-linguaggi {
+            p {
+                font-size: 20px;
+                text-align: left;
+                
+            }
+        }
+    }
+    
+    @media (max-width: 400px) {
+        .img-skills { 
+                display: none;
+            }
+        .container-progress {
+            p {
+                display: none;
+                
+            }
+        }
+        .container-myskill {
+            column-gap: 40px;
+        }
+        .container-icon {
+            img {
+                width: 40px;
             }
         }
         .container-linguaggi {
