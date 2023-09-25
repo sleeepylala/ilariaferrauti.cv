@@ -26,10 +26,7 @@
 
 
 <h3><em>Feel free to modify the project as you wish. I'm always open to suggestions to keep improving.</em></h3>
-<p align="center">
-  <img src="images/icon/chat-heart.svg" width="350" title="hover text">
-
-</p>
-
+![heart icon](assets/images/icon/chat-heart.svg)
+<img src="assets/images/icon/chat-heart.svg" width="128"/>
 
 
