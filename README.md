@@ -8,9 +8,9 @@
         <li>
             <strong>Assets Folder:</strong> Inside, you'll find various subfolders:
             <ul>
-                <li><strong>CSS</strong> </li>
-                <li><strong>Images</strong> </li>
-                <li><strong>Sass</strong> </li>
+                <li><em>CSS</em> </li>
+                <li><em>Images</em> </li>
+                <li><em>Sass</em> </li>
             </ul>
         </li>
         <li>
@@ -26,6 +26,7 @@
 
 
 <h3>Feel free to modify the project as you wish. I'm always open to suggestions to keep improving.</h3>
+<i class="bi bi-chat-heart"></i>
 
 
 
