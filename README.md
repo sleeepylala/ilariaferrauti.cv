@@ -1,5 +1,5 @@
 
-<h1>My Portfolio</h1>
+<h1 style="color: #E84558;">My Portfolio</h1>
 <p>Welcome to my very first portfolio website! I've created it using HTML, CSS, and Bootstrap. Here, you can explore my projects, check out my skills, and find my contact information. <br> I hope you enjoy and i look forward to your contributions! </p>
 
 
@@ -26,7 +26,6 @@
 
 
 <h3><em>Feel free to modify the project as you wish. I'm always open to suggestions to keep improving.</em></h3>
-![heart icon](assets/images/icon/chat-heart.svg)
-<img src="assets/images/icon/chat-heart.svg" width="128"/>
+<img src="assets/images/icon/chat-heart.svg" width="70px"/>
 
 
