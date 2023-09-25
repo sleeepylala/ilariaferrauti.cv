@@ -45,15 +45,8 @@
     letter-spacing: 2px;
 }
 
-@media (max-width: 575px) {
-    .container-p {
-        width: 100vw;
-    }
-}
-
-@media (max-width: 400px) {
-    .container-p {
+@media (max-width: 600px) {
+    .container-about {
         padding: 0;
-        padding-right: 30px;
     }
 }
