@@ -25,8 +25,11 @@
     </ul>
 
 
-<h3>Feel free to modify the project as you wish. I'm always open to suggestions to keep improving.</h3>
-<i class="bi bi-chat-heart"></i>
+<h3><em>Feel free to modify the project as you wish. I'm always open to suggestions to keep improving.</em></h3>
+<p align="center">
+  <img src="images/icon/chat-heart.svg" width="350" title="hover text">
+
+</p>
 
 
 
